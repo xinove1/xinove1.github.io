@@ -2,8 +2,9 @@
 layout: post
 title: "Blog da silva"
 ---
-
 <p>
+teste
+<a href="_posts/2024-05-01-raylib_tutorial.html#ID-22969456-b13e-40e4-bd67-c9c6837be853">raylib<sub>tutorial</sub></a>
 Posts:
 </p>
 <ul>
@@ -11,5 +12,17 @@ Posts:
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
+  {% endfor %}
+</ul>
+<p> -------------- </p>
+<ul class="posts">
+{% for post in site.posts limit: 5 %}
+  <div class="post_info">
+    <li>
+	    <a href="{{ post.url }}">{{ post.title }}</a>
+	    <span>({{ post.date | date:"%Y-%m-%d" }})</span>
+    </li>
+    </br> <em>{{ post.excerpt }} </em>
+    </div>
   {% endfor %}
 </ul>
