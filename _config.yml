@@ -1,5 +1,20 @@
 remote_theme: pages-themes/minimal@v0.2.0
+# defaults:
+#     scope:
+#       path: ""
+#       type: "pages"
+#     values:
+#       layout: "my-site"
+#     scope:
+#       path: "projects"
+#       type: "pages" # previously `page` in Jekyll 2.2.
+#     values:
+#       layout: "project" # overrides previous default layout
+#       author: "Mr. Hyde"
+
+logo: assets/smoking_cat.jpg
 title: Thomi site
 description: blogs and projects
+
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
