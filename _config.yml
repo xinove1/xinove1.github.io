@@ -1,4 +1,4 @@
-remote_theme: pages-themes/minimal@v0.2.0
+#remote_theme: pages-themes/minimal@v0.2.0
 # defaults:
 #     scope:
 #       path: ""
@@ -12,9 +12,12 @@ remote_theme: pages-themes/minimal@v0.2.0
 #       layout: "project" # overrides previous default layout
 #       author: "Mr. Hyde"
 
-logo: assets/smoking_cat.jpg
+logo: assets/eu.jpeg
 title: Thomi site
 description: blogs and projects
+itch_link: https://xinove.itch.io/
+github_link: https://github.com/xinove1
+linkedin_link: https://www.linkedin.com/in/thomisircus/
 
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+# plugins:
+# - jekyll-remote-theme # add this line to the plugins list if you already have one
