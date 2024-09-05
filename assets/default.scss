@@ -1,0 +1,80 @@
+---
+---
+
+@import "reset";
+
+body {
+	background-color: #095aa6;
+	color: #fcffff;
+}
+
+p {
+	background-color: #055aa6;
+}
+
+.navbar {
+	background-color: black;
+
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: flex-end;
+
+		/* nav { */
+	/* 	background-color: black; */
+	/* 	margin: auto; */
+	/* 	height: 100%; */
+	/* 	width: 80%; */
+	/* 	//padding: 5px; */
+	/* } */
+
+	.nav-internal {
+		margin-right: auto;
+	}
+
+	ul {
+		display: flex;
+		list-style-type: none;
+		margin: 0 5px;
+		padding: 5px;
+		overflow: hidden;
+	}
+
+	a {
+		color: white;
+		text-decoration: none;
+		display: block;
+		padding: 5px 5px;
+	}
+
+	a:hover {
+		background-color: #111;
+	}
+
+	.current {
+		background-color: grey;
+		color: white;
+	}
+
+	.external_link {
+	}
+
+	img {
+		width: 33px;
+		height: 33px;
+	}
+
+	.pfp {
+		border-radius: 50%;
+	}
+}
+
+.project_field {
+	background-color: red;
+	color: white;
+}
+
+/* Links */
+a {
+	color: #ff485b;
+}

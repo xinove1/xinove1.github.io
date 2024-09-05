@@ -1,0 +1,17 @@
+<div class="navbar">
+  <img class="pfp" src="assets/eu.jpeg" alt="portrait drawing of thomi">
+  <!-- <h1> thomi site </h1> -->
+  <nav class="nav-internal">
+    <ul>
+      <li><a href="/" {% if page.url == "/" %} class="current" {% endif %}>Home</a></li>
+      <li><a href="/projects" {% if page.url == "/projects.html" %} class="current" {% endif %}>Projects</a></li>
+    </ul>
+  </nav>
+  <nav class="nav-external">
+    <ul>
+      <li class="external_link"><a target="_blank" href={{ site.github_link }}> <img src="assets/github-mark.png" alt="github"> </a></li>
+      <li class="external_link"><a target="_blank" href={{ site.itch_link }}> <img src="assets/itchio-logo-textless-white.png" alt="itch.io"> </a></li>
+      <li class="external_link"><a target="_blank" href={{ site.linkedin_link }}> <img src="assets/linkedin.png" alt="linkedin"> </a></li>
+    </ul>
+  </nav>
+</div>
