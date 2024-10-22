@@ -3,14 +3,14 @@
 
 @charset "utf-8";
 
-@use "reset";
-@use "wrapper";
-@use "page";
-@use "footer";
-@use "header";
-@use "float";
-@use "posts";
-@use "categories";
-@use "post";
-@use "mobile";
-@use "slideshow";
+@import "reset";
+@import "wrapper";
+@import "page";
+@import "footer";
+@import "header";
+@import "float";
+@import "posts";
+@import "categories";
+@import "post";
+@import "mobile";
+@import "slideshow";
