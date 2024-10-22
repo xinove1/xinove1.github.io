@@ -19,7 +19,7 @@ keywords: ['raylib', 'c', 'games', 'godot']
 # Styling
 sass:
   sass_dir: _sass
-  style: expanded # compact, expanded or compressed
+  #style: expanded # compact, expanded or compressed
 
 # Paginate
 pagination:
