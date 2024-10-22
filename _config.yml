@@ -2,7 +2,7 @@
 name: Thomi's site
 headline_text: Projects and future blog posts.
 description: Thomi's site.
-url: https://example.com
+#url: https://example.com
 author: xinove1
 timezone: America/Sao_Paulo
 timezone_short: BR
@@ -15,13 +15,6 @@ linkedin_link: https://www.linkedin.com/in/thomisircus/
 
 # Keywords
 keywords: ['raylib', 'c', 'games', 'godot']
-
-# Analytics (Plausible requires sign-up)
-analytics:
-  plausible:
-    enabled: false
-    site_fqdn: 'your.site.fqdn'
-    script_source: 'https://plausible.io/js/script.js'
 
 # Styling
 sass:

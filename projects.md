@@ -24,10 +24,11 @@ The source is available here: [github.com/xinove1/raylib-brick-games.](https://g
 <br>
 And you can play it here: [xinove.itch.io/brick-games.](https://xinove.itch.io/brick-games)
 <br>
-<div class="carousel">
-  <img src="assets/brick_games.png" alt="Screenshot of brickgames main menu.">
-  <img src="assets/brick_games_tetris.gif" alt="gif of brickgames tetris game.">
-</div>
+{% assign brick_slides = "brick_games.png brick_games_snake.png" | split: ' ' %}
+{% include slideshow_builder.html id="brick-games" slides=brick_slides %}
+<br>
+
+<!-- <img src="assets/brick_games.png" alt="Screenshot of brickgames main menu."> -->
 
 <br>
 
