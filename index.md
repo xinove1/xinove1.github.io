@@ -6,6 +6,7 @@ title: Home
 Hi, I'm Thomi, a self-taught developer and ex-student of École 42. 
 <br>
 Aspiring game dev and systems programmer, coffee nerd, arch btw, dvorak and qwerty btw. 
+a
 ### You can find me on:
 [Github](https://github.com/xinove1)
 <br>
