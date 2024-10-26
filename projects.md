@@ -9,6 +9,8 @@ title: Projects
 ## Cake Defender
 <br> 
 A tower defense game in development. Made with C and Raylib.
+<br>
+[Source.](https://github.com/xinove1/xi-engine)
 
 <br><br> 
 {% assign cake_slides = "cake_1.png" | split: ' ' %}
@@ -26,13 +28,13 @@ Play the prototype: [xinove.itch.io/detective-cucumberbatch](https://xinove.itch
 
 <br><br> 
 {% assign cucumber_slides = "cucumber_capa.png cucumber_1.png cucumber_2.png cucumber_3.png cucumber_4.png cucumber_5.png" | split: ' ' %}
-{% assign cucumber_videos = "" | split: ' ' %}
+{% assign cucumber_videos = "cucumber.mp4" | split: ' ' %}
 {% include slideshow_builder.html id="cucumber-batch" slides=cucumber_slides videos=cucumber_videos %}
 <br>
 
 ## [BrickGames](https://xinove.itch.io/brick-games)
 <br> 
-Collection of little games made to learn game programming with C and Raylib. Has Tetris, snake, breakout, and pong clones.
+Collection of little games made to learn game programming with C and Raylib. Has Tetris, snake, and breakout clones.
 <br>
 Very rough on the edges, but I learned a lot doing this project. 
 <br><br>
@@ -41,7 +43,7 @@ The source is available here: [github.com/xinove1/raylib-brick-games](https://gi
 And you can play it here: [xinove.itch.io/brick-games](https://xinove.itch.io/brick-games).
 <br><br> 
 {% assign brick_slides = "brick_games.png brick_games_tetris.png brick_games_snake.png" | split: ' ' %}
-{% assign brick_videos = "teste.mp4" | split: ' ' %}
+{% assign brick_videos = "brick.mp4" | split: ' ' %}
 {% include slideshow_builder.html id="brick-games" slides=brick_slides videos=brick_videos %}
 
 <br>
