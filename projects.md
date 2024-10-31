@@ -47,6 +47,16 @@ And you can play it here: [xinove.itch.io/brick-games](https://xinove.itch.io/br
 {% include slideshow_builder.html id="brick-games" slides=brick_slides videos=brick_videos %}
 
 <br>
+## [Frogame](https://xinove.itch.io/frogame?secret=IZuSbHl9L8UYRb7vunWCMGpg73Y)
+<br> 
+A entry to the nokia game jam of 2021 that me and two of my friends did. Even if we didn't deliver the experince we wanted, we liked what we were able to acomplish with the time we had.
+<br>
+<br><br> 
+{% assign frog_slides = "frogame_1.png frogame_2.png frogame_3.png frogame_4.png" | split: ' ' %}
+{% assign frog_videos = "frogame.mp4" | split: ' ' %}
+{% include slideshow_builder.html id="frogame" style="width:50% height:50%" class="center" slides=frog_slides videos=frog_videos %}
+
+<br>
 
 <br>
 
