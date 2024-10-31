@@ -7,15 +7,14 @@
       {% else %}
       <div class="mySlides fade" style="display: none;">
       {% endif %}
-      <img src="assets/{{ slide }}" style="width:100%">
+        <img src="assets/{{ slide }}" style="width:100% {{ include.style }}" class="{{ include.class }}">
     </div>
     {% assign flag = 1 %}
     {% endfor %}
 
     {% for video in include.videos %}
       <div class="mySlides fade" style="display: none;">
-        <video controls>
-          <source src="assets/{{ video }}" type="video/mp4">
+        <video src="assets/{{ video }}" class="{{ include.class }}" controls>
         </video>
     </div>
     {% endfor %}
@@ -26,11 +25,21 @@
 <br>
 
 <div style="text-align:center">
+    {% assign i = 0 %}
     {% for slide in include.slides %}
-    <span class="dot" onclick="currentSlide({% increment i %}, 'slideshow-{{ include.id }}')"></span>
+
+      {% if i == 0 %}
+      <span class="dot active" onclick="currentSlide({{ i }}, 'slideshow-{{ include.id }}')"></span>
+      {% else %}
+      <span class="dot" onclick="currentSlide({{ i }}, 'slideshow-{{ include.id }}')"></span>
+      {% endif %}
+
+    {% assign i = i | plus: 1 %}
     {% endfor %}
+
     {% for video in include.videos %}
-    <span class="dot" onclick="currentSlide({% increment i %}, 'slideshow-{{ include.id }}')"></span>
+    <span class="dot" onclick="currentSlide({{ i }}, 'slideshow-{{ include.id }}')"></span>
+    {% assign i = i | plus: 1 %}
     {% endfor %}
 </div> 
 </div>
